@@ -12,35 +12,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.cv_work.setOnClickListener{
+        binding.cvWork.setOnClickListener{
             Toast.makeText(applicationContext,"Work", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_education.setOnClickListener{
+        binding.cvEducation.setOnClickListener{
             Toast.makeText(applicationContext,"Education", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_fitness.setOnClickListener{
+        binding.cvFitness.setOnClickListener{
             Toast.makeText(applicationContext,"Fitness", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_gaming.setOnClickListener{
+        binding.cvGaming.setOnClickListener{
             Toast.makeText(applicationContext,"Gaming", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_medical.setOnClickListener{
+        binding.cvMedical.setOnClickListener{
             Toast.makeText(applicationContext,"Medical", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_setting.setOnClickListener{
+        binding.cvSetting.setOnClickListener{
             Toast.makeText(applicationContext,"Settings", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_start_up.setOnClickListener{
+        binding.cvStartUp.setOnClickListener{
             Toast.makeText(applicationContext,"Start Up", Toast.LENGTH_SHORT).show()
         }
 
-        binding.cv_travel.setOnClickListener{
+        binding.cvTravel.setOnClickListener{
             Toast.makeText(applicationContext,"Travel", Toast.LENGTH_SHORT).show()
         }
     }
